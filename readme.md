@@ -7,9 +7,11 @@ This plugin will install a custom authenticator for the functions you specify as
 
 When using this plugin, you can use both the `x-api-key` header, or the `Authorization` header for authentication.
 
+This fork upgrades the lambda runtime engine to `python3.9`.
+
 Installation
 ------------
-`npm install serverless-basic-authentication`
+`npm install https://github.com/alexzum/serverless-basic-authentication`
 
 Add the plugin to your settings:
 
